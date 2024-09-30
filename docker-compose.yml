@@ -9,7 +9,7 @@ services:
     build: .
     container_name: invoiceshelf
     ports:
-      - 90:80
+      - 11000:80
     volumes:
       - ./invoiceshelf_sqlite/data:/data
       - ./invoiceshelf_sqlite/conf:/conf
