@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim as base
+FROM debian:latest as base
 
 # Set version label
 LABEL maintainer="invoiceshelf"
